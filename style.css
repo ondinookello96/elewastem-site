@@ -1,0 +1,89 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #172033;
+  background: #f3f6fb;
+  line-height: 1.65;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: clamp(1rem, 5vw, 3rem);
+}
+
+.card {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: clamp(1.25rem, 5vw, 3rem);
+  background: #fff;
+  border: 1px solid #dce3ee;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 2rem rgb(23 32 51 / 6%);
+}
+
+.eyebrow {
+  color: #3156a4;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+h1,
+h2 {
+  line-height: 1.25;
+}
+
+h1 {
+  margin-top: 0.5rem;
+  font-size: clamp(2rem, 6vw, 3rem);
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+}
+
+a {
+  color: #174ca6;
+  text-underline-offset: 0.2em;
+}
+
+a:focus-visible {
+  outline: 3px solid #d18500;
+  outline-offset: 3px;
+}
+
+nav {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.link-card {
+  display: grid;
+  gap: 0.25rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid #bdcbe2;
+  border-radius: 0.75rem;
+  text-decoration: none;
+}
+
+.link-card:hover {
+  background: #f3f6fb;
+}
+
+.link-card strong {
+  font-size: 1.15rem;
+}
+
+.link-card span,
+.updated {
+  color: #4a5568;
+}
+
+.contact {
+  margin-top: 2rem;
+}
